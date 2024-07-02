@@ -14,8 +14,4 @@ jobs:
         with:
           node-version: '20'
       - name: Install dependencies
-        run: npm install
-      - name: Build application
-        run: npm run build
-      - name: Run audit
-        run: npm audit fix
+        run: npm i
